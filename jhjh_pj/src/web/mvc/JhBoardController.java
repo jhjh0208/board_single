@@ -36,7 +36,7 @@ public class JhBoardController extends MultiActionController{
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("board/getJhBoardList");
 		mav.addObject("jhBoardList", jhBoardList);
-		return mav;		
+		return mav;		 
 	}
 	
 }
