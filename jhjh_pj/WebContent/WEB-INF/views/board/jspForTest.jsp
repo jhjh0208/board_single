@@ -26,6 +26,7 @@
             </tr>
         </thead>
         <tbody>
+        <%for(int i = 0; i<10; i++){    %>
         	<tr>
         		<td>1</td>
         		<td>2</td>
@@ -33,6 +34,9 @@
         		<td>4</td>
         		<td>5</td>
         	</tr>
+        	<%
+        	}
+        	%>
         </tbody>
     </table>
     
